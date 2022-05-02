@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Chat</title>
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <span id="top-title">CHAT</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>CHOOSE A ROOM</h1>
+            <form action="chat.html">
+                <div class="container">
+                    <div class="row">
+                        <select name="select-room" id="select-room">
+                            <option value="-1">Select room</option>
+                            <option value="node">Node</option>
+                            <option value="java">Java</option>
+                            <option value="reactjs">ReactJS</option>
+                        </select>
+                    </div>
+                    <div class="row">
+                        <input id="username-input" type="text" name="username" placeholder="username"/>
+                    </div>
+                    <div class="row">
+                        <button type="submit" class="btn btn-primary mb-3">Enter</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-div">
+            <p class="">CHAT</p>
+            <p>.</p>
+            <p class="footer-p">© 2022, made by MF</p>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
